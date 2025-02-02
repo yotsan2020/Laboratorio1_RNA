@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#33673B"      # Color primario (usado para botones, etc.)
+backgroundColor = "#EFEFEF"   # Color de fondo principal
+secondaryBackgroundColor = "#d8cbc7" # Color de la barra lateral
+textColor = "#19231A"         # Color del texto
