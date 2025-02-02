@@ -9,6 +9,12 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from tensorflow.keras.utils import to_categorical
 
+
+# Barra lateral personalizada
+with st.sidebar:
+    st.image("https://i.imgur.com/6MCLoH2.png", width=280)
+
+
 # Cargar resultados
 df = pd.read_csv("model_results.csv")
 

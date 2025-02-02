@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+# Barra lateral personalizada
+with st.sidebar:
+    st.image("https://i.imgur.com/6MCLoH2.png", width=280)
+
+
+
 # Título e Introducción
 st.title('Experimento: Flexibilidad Avanzada en la Definición de la Arquitectura de un Modelo de MMM')
 st.markdown("""
