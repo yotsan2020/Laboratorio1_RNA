@@ -203,19 +203,19 @@ elif option == 'Funcional':
     col1, col2 = st.columns(2)
     with col1:
         # Imagen de Funcional sin BatchNormalization
-        st.image('img_estilos\model_functional.png', caption='Modelo Funcional Sin BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_functional.png', caption='Modelo Funcional Sin BatchNormalization', use_column_width=True)
     with col2:
         # Imagen de Funcional con BatchNormalization
-        st.image('img_estilos\model_functional_bn.png', caption='Modelo Funcional Con BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_functional_bn.png', caption='Modelo Funcional Con BatchNormalization', use_column_width=True)
 
 elif option == 'Subclassing':
     col1, col2 = st.columns(2)
     with col1:
         # Imagen de Subclassing sin BatchNormalization
-        st.image('img_estilos\model_subclassing.png', caption='Modelo Subclassing Sin BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_subclassing.png', caption='Modelo Subclassing Sin BatchNormalization', use_column_width=True)
     with col2:
         # Imagen de Subclassing con BatchNormalization
-        st.image('img_estilos\model_subclassing_bn.png', caption='Modelo Subclassing Con BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_subclassing_bn.png', caption='Modelo Subclassing Con BatchNormalization', use_column_width=True)
 
 # Título de la aplicación
 st.title("Comparación de Enfoques de Modelos en Keras")
