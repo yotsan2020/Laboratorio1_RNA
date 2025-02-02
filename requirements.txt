@@ -2,7 +2,7 @@ matplotlib
 numpy
 pandas
 Pillow
-plotly == 5.24.1
+plotly==5.24.1
 scikit_learn
 streamlit
 tensorflow
