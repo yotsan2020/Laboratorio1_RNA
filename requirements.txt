@@ -1,9 +1,8 @@
-matplotlib==3.10.0
-numpy==2.2.2
-pandas==2.2.3
-Pillow==8
-plotly==5.24.1
-scikit_learn==1.6.1
-streamlit==1.39.0
-tensorflow==2.17.0
-plotly==5.24.1
+matplotlib
+numpy
+pandas
+Pillow
+plotly
+scikit_learn
+streamlit
+tensorflow
