@@ -194,10 +194,10 @@ if option == 'Secuencial':
     col1, col2 = st.columns(2)
     with col1:
         # Imagen de Secuencial sin BatchNormalization
-        st.image('img_estilos\model_sequential.png', caption='Modelo Secuencial Sin BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_sequential.png', caption='Modelo Secuencial Sin BatchNormalization', use_column_width=True)
     with col2:
         # Imagen de Secuencial con BatchNormalization
-        st.image('img_estilos\model_sequential_bn.png', caption='Modelo Secuencial Con BatchNormalization', use_column_width=True)
+        st.image('img_estilos/model_sequential_bn.png', caption='Modelo Secuencial Con BatchNormalization', use_column_width=True)
 
 elif option == 'Funcional':
     col1, col2 = st.columns(2)
